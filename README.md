@@ -4,6 +4,7 @@
 
 Ryuu is essentially a Raspberry Pi5 equipped with a Hailo 10H NPU running AI locally. It evolved into a proof of concept of Running AI locally and scalable for enterprises. Ryuu is a FastAPI python inference using HailoRT and the NPU with a RAG system, and possible internet access for research and updates. 
 The Successor of [FARA](https://github.com/RJSLabbert/fara-ai).
+
 [![Python](https://img.shields.io/badge/Python-3.13+-blue?logo=python&logoColor=white)](https://python.org)
 [![FastAPI](https://img.shields.io/badge/FastAPI-backend-green?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
 [![HailoRT](https://img.shields.io/badge/HailoRT-5.1.1-blue?)](https://github.com/hailo-ai/hailort)
