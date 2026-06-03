@@ -1,0 +1,3 @@
+fastapi
+uvicron
+# Hailo_platform - installed via HAiloRT SDK on device
