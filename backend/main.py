@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from engine import ModelEngine
+from backend.engine import ModelEngine
 from pydantic import BaseModel
 
 class TextRequest(BaseModel):
