@@ -10,5 +10,5 @@ Ryuu = FastAPI()
 
 @Ryuu.post("/inputText")
 def inputText(request: TextRequest):
-    outputText = RyuuLanguageEngine.chatPrompt(request)
+    outputText = RyuuLanguageEngine.chatPrompt(request.request)
     return outputText
