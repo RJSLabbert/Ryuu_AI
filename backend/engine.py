@@ -7,5 +7,6 @@ class ModelEngine:
         self.ryuuModel = LLM(vdevice=self.HailoNPU, model_path="models/Qwen2.5-1.5B-Instruct.hef")
 
     def chatPrompt(self, inputPrompt):
-        ModelResponse = self.ryuuModel.generate(inputPrompt)
+        userInput = [{"role": "user", "content": inputPrompt}]
+        ModelResponse = self.ryuuModel.generate(userInput)
         return ModelResponse      
