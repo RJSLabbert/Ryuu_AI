@@ -8,5 +8,8 @@ class ModelEngine:
 
     def chatPrompt(self, inputPrompt):
         userInput = [{"role": "user", "content": inputPrompt}]
-        ModelResponse = self.ryuuModel.generate(userInput)
+        ModelResponse = ""
+        with self.ryuuModel.generate(userInput, max_generated_tokens=500) as tokenGen:
+            for token in tokenGen:
+                ModelResponse += token
         return ModelResponse      
