@@ -3,3 +3,5 @@ __pycache__/
 *.pyc
 venv/
 models/
+data/ryuu.db
+data/ryuu.indes
