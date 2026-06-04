@@ -1,3 +1,5 @@
 fastapi
-uvicron
+uvicorn
+faiss-cpu
+sentence-transformers
 # Hailo_platform - installed via HAiloRT SDK on device
